@@ -1,0 +1,15 @@
+{
+  "name": "qie-liquidity-nexus",
+  "version": "1.0.0",
+  "description": "DeFi Liquidity Protocol for QIE Blockchain",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network qie-testnet"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "hardhat": "^2.14.0",
+    "ethers": "^6.0.0"
+  }
+}
